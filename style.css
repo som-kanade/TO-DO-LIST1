@@ -1,0 +1,77 @@
+
+input{
+	font-family: tahoma;
+	font-size: 16px;
+	color:gray;
+	width:75%;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction:row;
+}
+
+.header{
+	border:2px solid black;
+	padding: 10px;
+	background-color: orange;
+}
+
+.container{
+	display: flex;
+	flex-direction:column;
+
+}
+
+button:hover{
+	background-color: darkgray;
+}
+
+button{
+	padding: 10px;
+	font-family: tahoma;
+	background-color: lightgray;
+	color:#001f3f;
+	cursor: pointer;
+}
+
+.close:hover{
+	color:white;
+	transition:0.3s;
+	background-color: red;
+}
+
+.close{
+	right:0px;
+	top:0px;
+	position: absolute;
+	padding: 10px;
+	
+}
+
+body{
+	margin: :0px;
+	max-width: 400px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+	position: relative;
+	cursor:pointer;
+	padding: 10px;
+	list-style-type: none;
+	font-size: 18px;
+}
+
+ul li:hover {
+  background: lightgray;
+}
+
+li:hover{
+	text-decoration: line-through;
+}
+
